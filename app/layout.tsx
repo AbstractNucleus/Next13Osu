@@ -51,7 +51,7 @@ export default async function RootLayout({
       <head></head>
       <body>
         <div className='flex-col'>
-          <div className='flex'>
+          <div className='flex space-x-12'>
             <Nav />
             <h1 className="text-3xl font-bold text-red-500">#{user.statistics.global_rank}</h1>
             <Counter />
